@@ -1,51 +1,53 @@
-/* Global variables */
+/* Set default background color */
 :root {
-  --primary-color: #00bcd4;
-  --secondary-color: #4caf50;
-  --text-color: #ffffff;
-  --background-color: #1a1b26;
+  --background-primary: #1a1b26;
 }
 
-/* Discord UI */
-.app {
-  background-color: var(--background-color);
-  color: var(--text-color);
+/* Change chat background color */
+.chat {
+  background-color: var(--background-primary) !important;
 }
 
-/* Channel list */
-.channels-wrap {
-  background-color: var(--background-color);
-  color: var(--text-color);
+/* Change settings background color */
+.settings {
+  background-color: var(--background-primary) !important;
 }
 
-/* Server name and icon */
-.guild-header {
-  background-color: var(--primary-color);
+/* Change channel list background color */
+.channels-3g2vYe,
+.channel-2QD9_O {
+  background-color: var(--background-primary) !important;
 }
 
-/* Chat messages */
-.message-group {
-  background-color: var(--secondary-color);
+/* Change server list background color */
+.guilds-1SWlCJ {
+  background-color: var(--background-primary) !important;
 }
 
-/* Chat input box */
-.textArea-12jD-V {
-  background-color: var(--background-color);
-  color: var(--text-color);
+/* Change member list background color */
+.membersWrap-2h-GB4,
+.scroller-2TZvBN {
+  background-color: var(--background-primary) !important;
 }
 
-/* Buttons */
-.button-3Jq0g9 {
-  background-color: var(--primary-color);
-  color: var(--text-color);
+/* Change user popout background color */
+.userPopout-3XzG_A {
+  background-color: var(--background-primary) !important;
 }
 
-/* Links */
-.anchor-3Z-8Bb {
-  color: var(--primary-color);
+/* Change context menu background color */
+.contextMenu-uoJTbz,
+.menu-3pR-XJ {
+  background-color: var(--background-primary) !important;
 }
 
-/* Selected channel */
-.selected-3s45Ha {
-  background-color: var(--secondary-color);
+/* Change modal background color */
+.modal-1UGdnR {
+  background-color: var(--background-primary) !important;
+}
+
+/* Change tooltip background color */
+.tooltip-2QfLtc,
+.tooltipContainer-1uJlKh {
+  background-color: var(--background-primary) !important;
 }
