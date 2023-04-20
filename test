@@ -1,60 +1,116 @@
-/* Change Only Theme Colors & Custom Font */
-.theme-dark {
+/* Change Background Color */
+:root {
   --background-primary: #1a1b26;
-  --background-secondary: #1a1b26;
-  --background-tertiary: #1a1b26;
-  --background-secondary-alt: #1a1b26;
-  --channeltextarea-background: #24283b;
-  --interactive-muted: #7aa2f7;
-  --background-floating: #242730;
-  --text-normal: var(--interactive-normal);
-  --header-primary: var(--interactive-normal);
-  --interactive-active: #bb9af7;
-  --scrollbar-auto-thumb: #2a2e38;
-  --scrollbar-auto-track: #24283b;
-  --header-secondary: #51afef;
-  --background-accent: #242730;	
 }
 
-/* Force color */
-.theme-dark .container-1D34oG {
+/* Change Channel List Color */
+.guilds-1SWlCJ {
   background-color: #1a1b26;
 }
 
-.categoryHeader-O1zU94, .theme-dark .autocomplete-1vrmpx {
+/* Change Server Color */
+/* Remove comment to change server color */
+/*
+.container-2ax-kl, .container-1r6BKw, .theme-dark .membersWrap-2h-GB4 {
+  background-color: #1a1b26;
+}
+*/
+
+/* Change Mention Color */
+.theme-dark .mentioned-2fchnE {
+  color: #dcddde;
+  background-color: #2f3136;
+}
+
+/* Change Selected Message Background Color */
+.theme-dark .selected-3s45Ha {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Change Channel Topic Color */
+/* Remove comment to change channel topic color */
+/*
+.theme-dark .topic-2QX7LI {
+  color: #dcddde;
+}
+*/
+
+/* Change Channel Name Color */
+.theme-dark .channelName-1G03vu {
+  color: #dcddde;
+}
+
+/* Change User Status Color */
+.theme-dark .status-1X3sFd {
+  color: #dcddde;
+}
+
+/* Change Mentioned User Name Color */
+.theme-dark .mention-1tTf9G {
+  color: #dcddde;
+}
+
+/* Change User Popout Background Color */
+.theme-dark .userPopout-3XzG_A {
   background-color: #1a1b26;
 }
 
-.theme-dark .selected-1Tbx07 {
-  background-color: #3b4252;
+/* Change User Popout User Info Background Color */
+.theme-dark .userInfo-2L9XYV {
+  background-color: #242730;
 }
 
-/* Fonts */
-code {
-  font-family: "Ubuntu Mono Nerd Font", monospace !important;
+/* Change User Popout Name and Discriminator Color */
+.theme-dark .nameTag-3p1Zf6 {
+  color: #dcddde;
 }
 
-/* Hide Inbox Button & Support Button */
-a[href="https://support.discord.com"] {
-  display: none
+/* Change User Popout Activity Text Color */
+.theme-dark .activityText-3V3mmL {
+  color: #dcddde;
 }
 
-/* Round Searchbar */
-div[aria-label="Search"] {
-  border-radius: 8px
+/* Change User Popout Activity Icon Color */
+.theme-dark .activityIcon-2EzUjK {
+  color: #dcddde;
 }
 
-/* Change Color Of Placeholder On Input Bar */
-.placeholder-37qJjk.fontSize16Padding-3Wk7zP {
-  color: transparent
+/* Change Emoji Picker Background Color */
+.theme-dark .emojiPicker-3m1S-j {
+  background-color: #1a1b26;
 }
 
-/* Q's Role Color */
-.username-1A8OIy.clickable-1bVtEA[style="color: rgb(153, 45, 34);"] {
-  color: #bf616a !important
+/* Change Emoji Category Header Color */
+.theme-dark .emojiPickerHeader-3ly4O4 {
+  color: #dcddde;
 }
 
-/* remove the annoying warning */
-.channelNotice-1-XFjC.guildMFAWarning-3GEzs8 {
-  display: none;
+/* Change Emoji Category Divider Color */
+.theme-dark .emojiPickerDivider-3kX-V4 {
+  border-top-color: #2f3136;
+}
+
+/* Change Emoji Name Color */
+.theme-dark .emojiName-2oM7j9 {
+  color: #dcddde;
+}
+
+/* Change Emoji Preview Color */
+.theme-dark .emojiPreview-1-FAr_ {
+  color: #dcddde;
+}
+
+/* Change Emoji Search Background Color */
+.theme-dark .emojiSearchBar-1t8OXO {
+  background-color: #242730;
+}
+
+/* Change Emoji Search Placeholder Color */
+.theme-dark .emojiSearchBar-1t8OXO ::placeholder {
+  color: #dcddde;
+}
+
+/* Change Emoji Search Icon Color */
+.theme-dark .emojiSearchBar-1t8OXO svg {
+  color: #dcddde;
 }
