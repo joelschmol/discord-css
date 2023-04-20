@@ -1,0 +1,121 @@
+:root {
+  /* Colors */
+  --bg-color: #1a1b26;
+  --text-color: var(--header-primary);
+  --header-primary: #dcddde;
+  --header-secondary: #b9bbbe;
+  --accent-color: #7289da;
+  --mention-color: #f04747;
+  --link-color: #00b0f4;
+  --quote-color: #4f545c;
+  --code-color: #dcddde;
+  --divider-color: #2f3136;
+  --status-online: #43b581;
+  --status-idle: #faa61a;
+  --status-dnd: #f04747;
+  --status-offline: #747f8d;
+  --scrollbar-color: rgba(255, 255, 255, 0.2);
+  
+  /* Font */
+  --font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* App background */
+.app {
+  background-color: var(--bg-color) !important;
+}
+
+/* Settings background */
+.bd-settings-backdrop {
+  background-color: var(--bg-color) !important;
+}
+
+/* Chat messages */
+.message-group:not(.compact) {
+  background-color: var(--bg-color) !important;
+}
+
+/* Chat input */
+.textArea-12jD-V {
+  background-color: var(--bg-color) !important;
+}
+
+/* Text selection */
+::selection {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+}
+
+/* Hyperlinks */
+.anchor-3Z-8Bb {
+  color: var(--link-color) !important;
+}
+
+/* Channels list */
+.container-2ax-kl {
+  background-color: var(--divider-color) !important;
+}
+
+/* Server list */
+.guilds-wrapper {
+  background-color: var(--divider-color) !important;
+}
+
+/* Server name and icon */
+.guild-header {
+  background-color: var(--bg-color) !important;
+}
+
+/* Mention badge */
+.guilds-wrapper .badge-2oywTd {
+  background-color: var(--mention-color) !important;
+}
+
+/* User status */
+.status-1Z1Lkf {
+  &.online {
+    color: var(--status-online) !important;
+  }
+  
+  &.idle {
+    color: var(--status-idle) !important;
+  }
+  
+  &.dnd {
+    color: var(--status-dnd) !important;
+  }
+  
+  &.offline {
+    color: var(--status-offline) !important;
+  }
+}
+
+/* Channel topic */
+.topic-TCb_qw {
+  color: var(--header-secondary) !important;
+}
+
+/* Buttons */
+.button-3Jq0g9 {
+  background-color: var(--accent-color) !important;
+  color: var(--text-color) !important;
+  
+  &:hover {
+    background-color: lighten(var(--accent-color), 10%) !important;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-color);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--divider-color);
+  border-radius: 10px;
+}
