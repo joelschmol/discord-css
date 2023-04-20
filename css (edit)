@@ -9,12 +9,6 @@
   --background-secondary-alt: #1a1b26;
   --interactive-muted: #7aa2f7;
   --background-floating: #242730;
-  --text-normal: #c0caf5;
-  --header-primary: #c0caf5;
-  --interactive-active: #bb9af7;
-  --scrollbar-auto-thumb: #2a2e38;
-  --scrollbar-auto-track: #24283b;
-  --header-secondary: #51afef;
   --background-accent: #242730;	
 }
 
