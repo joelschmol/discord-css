@@ -14,17 +14,15 @@
   --scrollbar-auto-thumb: #2a2e38;
   --scrollbar-auto-track: #24283b;
   --header-secondary: #51afef;
-  --background-accent: #242730;
+  --background-accent: #242730;	
 }
 
 /* Force color */
-
 .theme-dark .container-1D34oG {
   background-color: #1a1b26;
 }
 
-.categoryHeader-O1zU94,
-.theme-dark .autocomplete-1vrmpx {
+.categoryHeader-O1zU94, .theme-dark .autocomplete-1vrmpx {
   background-color: #1a1b26;
 }
 
@@ -33,45 +31,39 @@
 }
 
 /* Fonts */
-
-/* { */
-/* font-family: "Mononoki Nerd Font"; */
-/* } */
+/* {
+font-family: "Mononoki Nerd Font";
+} */
 
 code {
   font-family: "Ubuntu Mono Nerd Font", monospace !important;
 }
 
 /* Hide Inbox Button & Support Button */
-
-/*div[aria-label="Inbox"] {
+/* div[aria-label="Inbox"] {
   display: none
-}*/
+} */
 
 a[href="https://support.discord.com"] {
   display: none
 }
 
 /* Round Searchbar */
-
 div[aria-label="Search"] {
-  border-radius: 8px;
+  border-radius: 8px
 }
 
 /* Change Color Of Placeholder On Input Bar */
-
 .placeholder-37qJjk.fontSize16Padding-3Wk7zP {
-  color: transparent;
+  color: transparent
 }
 
 /* Q's Role Color */
-
 .username-1A8OIy.clickable-1bVtEA[style="color: rgb(153, 45, 34);"] {
-  color: #bf616a !important;
+  color: #bf616a !important
 }
 
 /* remove the annoying warning */
-
 /* <div class="channelNotice-1-XFjC guildMFAWarning-3GEzs8">
 <div class="message-3SOT5P">
 <div>
@@ -86,10 +78,4 @@ div[aria-label="Search"] {
 
 .channelNotice-1-XFjC.guildMFAWarning-3GEzs8 {
   display: none;
-}
-
-/* Default text color */
-.theme-dark .markup-2BOw-j,
-.theme-dark .username-1A8OIy {
-  color: var(--text-normal) !important;
 }
