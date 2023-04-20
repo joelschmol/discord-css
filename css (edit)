@@ -1,7 +1,6 @@
-/* Change Only Theme Colors */
+/* Change Only Background Colors */
 
-:root {
-
+.theme-dark {
   --background-primary: #1a1b26;
   --background-secondary: #1a1b26;
   --background-tertiary: #1a1b26;
@@ -14,5 +13,38 @@
   --scrollbar-auto-thumb: #2a2e38;
   --scrollbar-auto-track: #24283b;
   --header-secondary: #51afef;
-  --background-accent: #242730;
+  --background-accent: #242730;	
+}
+
+/* Force color */
+.theme-dark .container-1D34oG {
+  background-color: #1a1b26;
+}
+
+.categoryHeader-O1zU94, .theme-dark .autocomplete-1vrmpx {
+  background-color: #1a1b26;
+}
+
+.theme-dark .selected-1Tbx07 {
+  background-color: #3b4252;
+}
+
+/* Hide Inbox Button & Support Button */
+a[href="https://support.discord.com"] {
+  display: none;
+}
+
+/* Round Searchbar */
+div[aria-label="Search"] {
+  border-radius: 8px;
+}
+
+/* Change Color Of Placeholder On Input Bar */
+.placeholder-37qJjk.fontSize16Padding-3Wk7zP {
+  color: transparent;
+}
+
+/* remove the annoying warning */
+.channelNotice-1-XFjC.guildMFAWarning-3GEzs8 {
+  display: none;
 }
